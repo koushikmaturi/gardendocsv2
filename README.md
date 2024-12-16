@@ -30,11 +30,10 @@ Garden has facilitated over a billion dollars in volume and stands out from othe
 
 #### [Swap​](https://app.garden.finance/swap/) <a href="#swap" id="swap"></a>
 
-If you're a new user, these guides will help you perform your first swap on Garden:
+Buy and sell Bitcoin in one click. Garden makes bridging trustless and simple. If you're a new user, these guides will help you perform your first swap on Garden:
 
 * [How to swap BTC to WBTC](https://docs.garden.finance/home/basics/guides/btc-wbtc)
 * [How to swap WBTC to BTC](https://docs.garden.finance/home/basics/guides/wbtc-btc)
-* [How to swap WBTC ](https://docs.garden.finance/home/basics/guides/wbtc-wbtc)across chains
 
 To learn how your swap is executed under the hood by Garden protocol, read the [intent lifecycle](fundamentals/how-it-works/intent-flow.md).
 
@@ -42,6 +41,7 @@ To learn how your swap is executed under the hood by Garden protocol, read the [
 
 Garden is a community-driven project that encourages and appreciates developers' use of its composable dev stack to build cool Bitcoin cross-chain experiences. If you're a developer looking to integrate or build on Garden, these are good places to start:
 
+* API: A simple breakdown of Garden's API usage.
 * [SDK](https://docs.garden.finance/developers/sdk/): A simple guide to using the Garden SDK.
 * [Cookbook](https://docs.garden.finance/cookbook/): If you're looking for some inspiration, you can find the projects cooked up by our devs and partners here! _chef's kiss_ To get your hands dirty in Garden (pun intended), check out the [Developers](https://docs.garden.finance/developers/) section.
 
