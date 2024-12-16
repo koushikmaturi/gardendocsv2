@@ -51,6 +51,6 @@ Provide liquidity to Garden and earn fees by becoming a [solver](fundamentals/in
 
 #### [Stake](https://app.garden.finance/stake/)[​](https://docs.garden.finance/#stake) <a href="#stake" id="stake"></a>
 
-Garden's [staking](fundamentals/introduction/stakers.md) system creates a game-theoretic mechanism to maintain solvers' integrity and incentivise long term [**SEED**](governance/token.md) commitment with native Bitcoin rewards.
+Garden's [staking](fundamentals/introduction/stakers.md) system creates a game-theoretic mechanism to maintain solvers' integrity and incentivise long term [**SEED**](governance/tokenomics.md) commitment with native Bitcoin rewards.
 
 Jump straight to [How to stake SEED](https://docs.garden.finance/home/basics/guides/stake-seed) for next steps.&#x20;

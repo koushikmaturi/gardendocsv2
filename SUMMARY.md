@@ -21,7 +21,7 @@
 
 ## Governance
 
-* [Token](governance/token.md)
+* [Tokenomics](governance/tokenomics.md)
 * [Governance process](governance/governance-process.md)
 * [Snapshot](governance/snapshot.md)
 
