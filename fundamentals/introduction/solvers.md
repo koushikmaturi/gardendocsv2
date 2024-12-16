@@ -6,7 +6,7 @@ Solvers address key challenges in decentralized systems. They enhance liquidity 
 
 ## How do solvers work?
 
-1. Solvers receive user intents via the Auction House, detailing the desired outcomes such as assets, chains, and amounts.
+1. Solvers receive user intents via the [Auction House](auctions.md), detailing the desired outcomes such as assets, chains, and amounts.
 2. Solvers evaluate available liquidity sources and identify the most efficient path to execute the intent.
 3. Each solver provides their best quote back to the Auction House, which selects the most competitive option for optimal user pricing.
 4. Once chosen, solvers fulfill the user’s intent by leveraging their tools and liquidity.
