@@ -1,12 +1,12 @@
 # Atomic swaps
 
-Atomic swaps are trustless peer-to-peer swaps that are used for settlement between user and the solver chosen to implement their intent. The atomic nature of these swaps comes from the fact that they are designed in a way to either complete the swap or not do it at all, there is no intermediate state. As a result, users and solvers don't lose control of their asset at any point of the swap process. Traditional bridges require you to give up control of your asset during the bridging process to the custodian (WBTC), intermediary network (Threshold, Thorchain), or a multisig (Avalanche bridge).
+Atomic swaps are trustless peer-to-peer swaps that are used for settlement between user and the [solver](solvers.md) chosen to implement their intent. The atomic nature of these swaps comes from the fact that they are designed in a way to either complete the swap or not do it at all, there is no intermediate state. As a result, users and solvers don't lose control of their asset at any point of the swap process. Traditional bridges require you to give up control of your asset during the bridging process to the custodian (WBTC), intermediary network ([Threshold](https://threshold.network), [Thorchain](https://thorchain.org)), or a multisig ([Avalanche bridge](https://core.app/bridge/)).
 
 Garden uses **Hash Time Locked Contracts** (HTLCs) to implement atomic swaps. As the name suggests, they are used to enforce time-bound conditions for transferring assets between two parties. They require the receiver of a transaction to acknowledge receiving the payment by generating a cryptographic proof within a certain timeframe. This proof is a response to a cryptographic challenge embedded in the contract, typically involving a hash function. If the receiver fails to provide the correct proof within the specified time, the transaction is automatically reversed, returning the assets to the sender. This is better explained with an example and flow chart.
 
 ## &#x20;How do atomic swaps work?
 
-Let's take our case, user gives an intent to swap. The auction house selects a solver for this. After executing the intent, the solver and the user have to settle (swap) their assets.
+Let's take our case, user gives an intent to swap. The [auction house](auctions.md) selects a solver for this. After executing the intent, the solver and the user have to settle (swap) their assets.
 
 <figure><img src="../../.gitbook/assets/atomic_swap.png" alt=""><figcaption></figcaption></figure>
 
@@ -19,20 +19,17 @@ This is what we call a happy flow where everything runs as expected. In the next
 
 ## Scenarios and safeguards
 
-1. **Lock Asset B doesn't happen**
+1. **Lock Asset A and B happens, but claim asset B doesn't happen**
 
-* **Penalty:** Solver and stakers are slashed 0.5% of the intent value.
-* **User resolution:** Refund of Asset A after 48 hours, plus slashed SEED as compensation.
-
-2. **Lock Asset A and B happens, but claim asset B doesn't happen**
+<figure><img src="../../.gitbook/assets/fail_s1.png" alt=""><figcaption></figcaption></figure>
 
 * **Penalty:** Stakers are slashed 1% of the intent value.
 * **Solver resolution:** Refund of Asset B after 24 hours, plus slashed SEED as compensation.
 * **User resolution:** Refund of Asset A after 48 hours.
 
+2. **Lock Asset B doesn't happen**
 
+<figure><img src="../../.gitbook/assets/fail_s2.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
+* **Penalty:** Solver and stakers are slashed 0.5% of the intent value.
+* **User resolution:** Refund of Asset A after 48 hours, plus slashed SEED as compensation.
