@@ -38,17 +38,14 @@ Solvers with a score great than 1 get priority in the auction. Solver scores are
 2. The Auction House identifies the solver with the best price (i.e., the lowest quote).
 3. Solvers with a **staker score** higher than the solver with the best quote have a 5-second window to accept the best quote. This mechanism ensures that solvers with higher backing from stakers have the opportunity to get first dibs on intents.
 4. The outcome depends on the participation during the acceptance period:
-   * **No one accepts:** The solver with the best quote wins the auction and fills the order.
-   * **One solver accepts:** The solver who accepts the quote gets the order.
-   * **Multiple sovlers accept:** Among the solvers who accept the best quote, the one with the highest **staker score** wins the auction and fills the order.
 
-Need 3 pics here,&#x20;
+**No one accepts:** The solver with the best quote wins the auction and fills the order.
 
-* no other solver accepts the best quote
-* one other solver accepts the best quote
-* multiple solvers accept the best quote
+**One solver accepts:** The solver who accepts the quote gets the order.
 
+<figure><img src="../../.gitbook/assets/solver_one_select.png" alt=""><figcaption></figcaption></figure>
 
+**Multiple sovlers accept:** Among the solvers who accept the best quote, the one with the highest **staker score** wins the auction and fills the order.
 
-
+<figure><img src="../../.gitbook/assets/solver_multiple_select.png" alt=""><figcaption></figcaption></figure>
 
