@@ -1,12 +1,12 @@
 # Stakers
 
-Staking is the entry point for interested people into Garden protocol, ensuring its decentralisation, efficiency, and accountability. By staking **SEED tokens**, stakers get to vote for solvers they trust to execute intents reliably and earn rewards based on their performance. This system incentivizes long-term commitment, balances solver selection, and helps maintain the protocol’s fairness and reliability.
+Staking is the entry point for interested people into Garden protocol, ensuring its decentralisation, efficiency, and accountability. By staking **SEED tokens**, stakers get to vote for [solvers](solvers.md) they trust to execute intents reliably and earn rewards based on their performance. This system incentivizes long-term [commitment](https://dune.com/garden_finance/gardenfinance#stake-your-seed), balances solver selection, and helps maintain the protocol’s fairness and reliability.&#x20;
 
 ## How does it work?
 
-Anyone holding a minimum of 2100 SEED tokens is eligible to [stake](https://app.garden.finance/stake/). Staking has to be done in multiples of 2100 SEED. Stakers deposit **SEED tokens** into the protocol, locking them for a chosen duration. Longer lock periods result in a higher staking multiplier, increasing both votes and potential rewards.
+1. Anyone holding a minimum of 2100 SEED tokens is eligible to [stake](https://app.garden.finance/stake/). Staking has to be done in multiples of 2100 SEED. Stakers deposit **SEED tokens** into the protocol, locking them for a chosen duration. Longer lock periods result in a higher staking multiplier, increasing both votes and potential rewards. Follow this tutorial for a step-by-step breakdown of staking.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/staking.png" alt=""><figcaption></figcaption></figure>
 
 2. Stakers allocate their votes to specific solvers based on performance metrics and projected APY. A solver’s ability to process intents is proportional to the votes they receive.
 3. Stakers earn a share of solver fees based on their voting weight. Staking rewards are distributed on a weekly basis in **Bitcoin**. The staking multiplier ensures that longer commitments lead to higher APY, encouraging stability in the protocol.
