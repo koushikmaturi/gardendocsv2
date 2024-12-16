@@ -15,17 +15,14 @@
   * [Catalog IFP](fundamentals/how-it-works/catalog-ifp.md)
   * [Cross-chain Coincidence of Wants (xCoW)](fundamentals/how-it-works/cross-chain-coincidence-of-wants-xcow.md)
 * [Benefits](fundamentals/benefits/README.md)
-  * [Speed](fundamentals/benefits/speed.md)
   * [Cross-chain intents](fundamentals/benefits/cross-chain-intents.md)
   * [Free option protection](fundamentals/benefits/free-option-protection.md)
   * [Better price](fundamentals/benefits/better-price.md)
 
 ## Governance
 
-* [Mission statement](governance/mission-statement.md)
 * [Token](governance/token.md)
 * [Governance process](governance/governance-process.md)
-* [Multisigs](governance/multisigs.md)
 * [Snapshot](governance/snapshot.md)
 
 ## Guides
