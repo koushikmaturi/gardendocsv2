@@ -6,10 +6,12 @@ This tutorial is to walk you through a typical swap on Garden to convert your Bi
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-11-29 at 12.26.02 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
-2. Select Bitcoin as the **Send** asset and your desired asset in **Receive** in the swap windo&#x77;**.**
-3. Enter the amount you want to swap.
-4. Enter a Recovery Address This address will be used to return your BTC in case the transaction fails.
-5. Click “Swap”, Confirm the wallet pop-up notification.
+2. In the swap window, select Bitcoin as the Send asset and choose the desired asset to which you want your BTC converted.
+3. Enter the amount to swap.
+4. Enter a Recovery Address. This address will be used to return your BTC in case the transaction fails.
+5. Click "Swap" and "Confirm" the signature request sent by your wallet to initiate the transaction.
 6. From the Transaction tab, copy the HTLC contract address and send the BTC amount specified in Step 4.
+
+
 
 Ta-daa! Swap is successful!
